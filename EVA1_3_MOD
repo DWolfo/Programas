@@ -1,0 +1,22 @@
+package eva1_3_mod;
+
+/**
+ *
+ * @author Daniel
+ */
+public class EVA1_3_MOD {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+    }
+    
+}
+
+class Persona{
+        String id;
+        String nombre;
+        int edad;
+}
