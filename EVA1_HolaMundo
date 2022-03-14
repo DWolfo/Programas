@@ -1,0 +1,14 @@
+package eva1_holamundo;
+
+/**
+ *
+ * @author Daniel
+ */
+public class EVA1_HOLAMUNDO {
+
+   
+    public static void main(String[] args) { // Funcion
+           System.out.println("Hola Mundo");
+    }
+    
+}
