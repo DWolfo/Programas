@@ -1,0 +1,216 @@
+
+package examen_1ra_evalucion_donut;
+
+import java.util.Scanner;
+
+public class EXAMEN_1RA_EVALUCION_DONUT {
+
+    
+    public static void main(String[] args) {
+        
+        /*Datos de los Integrantes
+         
+        Datos = new Datos();
+        estudiante.id = "21550368";
+        estudiante.nombre = "Jesus Daniel Balderrama Salgado";
+        estudiante.carrera = "Programacion";
+        estudiante.equipo = "Donut";
+        
+        Datos = new Datos();
+        estudiante.id = "21550348";
+        estudiante.nombre = "Alexandro Angel Montes de Oca Romero";
+        estudiante.carrera = "Programacion";
+        estudiante.equipo = "Donut";
+        
+        Datos = new Datos();
+        estudiante.id = "21550346";
+        estudiante.nombre = "Andy Espino Cabrales";
+        estudiante.carrera = "Programacion";
+        estudiante.equipo = "Donut";
+        
+        /*Contraseña
+       
+        Contraseña obj = new Contraseña();
+        Usuario obj = new Usuario();
+        obj.setContraseña(0);
+        obj.setUsuario(0);
+        */
+        
+           
+           /*TEST COVID
+        Test_Covid obj = new Test_Covid();
+        obj.setEdad(0);
+        obj.setEstatura(0);
+        obj.setPeso(0);
+        obj.setEnfermedad(0);
+        obj.calcularPersonaRiesgo();*/
+        
+        /*CUENTA BANCARIA
+        Cuenta_Bancaria obj = new Cuenta_Bancaria();
+        obj.setNumcuenta(21550346);
+        obj.setNombre("Andy");
+        obj.setSaldo(300.50);
+        obj.depositarCuenta(100.50);
+        obj.retirarDeCuenta(50.55);
+        obj.imprimirDatos();*/
+    }
+}
+
+
+/* Crear una clase que permita saber los datos de los miembros del
+equipo a evaluar
+class Datos_Integrantes {
+String id;
+String nombre;
+String equipo;
+String carrera;
+
+void  imprimirProblemasResueltos{
+        System.out.println("\nEl nombre es: " + nombre);
+        System.out.println("Su id es: " + id);
+        System.out.println("\nEl nombre del equipo es: " + equipo);
+        System.out.println("Su carrera es: " + carrera); 
+    }
+
+}
+
+/*Crear una clase que permita evaluar el acceso de un usuario y
+contraseña. Se requieren los datos
+
+class Contraseña {
+          private int Usuario;
+          private int Contraseña;
+          Scanner = new Scanner(System.in);
+
+         public int setUsuario(int Usuario) {
+                   System.out.println("Nombre del usuario: ");
+                   Usuario = input.nextInt();
+                   this Usuario = Usuario;
+      }
+
+          public int setUsuario(int Contraseña) {
+                   System.out.println("Contraseña: ");
+                   Contraseña = input.nextInt();
+                   this Contraseña = Contraseña;
+      }
+
+}
+
+/*Crear una clase que permita determinar si una persona tiene riesgo de enfermar
+//gravemente por COVID.
+class Test_Covid {
+
+    //ATRIBUTOS
+    private int edad;
+    private int enfermedad;
+    private double peso;
+    private double estatura;
+    private double imc;
+    Scanner input = new Scanner(System.in);
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        System.out.print("Ingresa la edad: ");
+        edad = input.nextInt();
+        this.edad = edad;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        System.out.print("Ingresa el peso(KG): ");
+        peso = input.nextDouble();
+        this.peso = peso;
+    }
+
+    public double getEstatura() {
+        return estatura;
+    }
+
+    public void setEstatura(double estatura) {
+        System.out.print("Ingresa la estatura(CM): ");
+        estatura = input.nextDouble();
+        this.estatura = estatura;
+    }
+
+    public int getEnfermedad() {
+        return enfermedad;
+    }
+
+    public void setEnfermedad(int enfermedad) {
+        System.out.print("¿Tiene alguna enfermedad crónica? (1 = sí, 0 = no): ");
+        enfermedad = input.nextInt();
+        this.enfermedad = enfermedad;
+    }
+
+    public void calcularIMC(double imc) {
+        imc = peso / Math.pow(estatura, 2);
+        this.imc = imc;
+    }
+
+    void calcularPersonaRiesgo() {
+        System.out.println("\n");
+        if (edad >= 65.0 || enfermedad == 1 || imc > 30) {
+            System.out.println("Persona de riesgo.");
+        } else{
+            System.out.println("Persona sin riesgo");
+        }
+    }
+}
+    //FINAL DE TEST COVID*/
+/*INICIO CUENTA BANCARIA
+class Cuenta_Bancaria {
+
+    //ATRIBUTOS
+    private int numcuenta = 0;
+    private String nombre = "";
+    private double saldo = 0;
+
+    public int getNumcuenta() {
+        return numcuenta;
+    }
+
+    public void setNumcuenta(int numcuenta) {
+        this.numcuenta = numcuenta;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public void depositarCuenta(double monto) {
+        saldo += monto;
+    }
+
+    public void retirarDeCuenta(double monto) {
+        if (saldo > monto) {
+            saldo -= monto;
+        } else {
+            System.out.println("Saldo insuficiente");
+        }
+    }
+    
+    void imprimirDatos(){
+        System.out.println("Número de cuenta: " + numcuenta);
+        System.out.println("Nombre del cliente: " + nombre);
+        System.out.println("Saldo: " + saldo);
+    }
+    
+} FIN DE CUENTA BANCARIA*/
